@@ -28,7 +28,7 @@ const Home = () => {
     }
 
     function getSinDig(n) {
-        if(n < 10 || n === 11 ){
+        if(n < 10 || n === 11 || n === 22 || n === 33 || n === 44 ){
             return n;
         }
         const lastDig = n % 10;
